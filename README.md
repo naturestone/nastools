@@ -6,7 +6,7 @@ Starte FreeNAS WebGUI (Beispiel):
 
 - https://freenas.local
 
-Die NASTOOLS-Scripte sollten in einem dedizierten Dataset abgelegt werden. Unter FreeNAS werden mehrere Festplatten zu einem logischen Volume `vol1` zusammengefasst. Das Volume kann dann ein oder mehrere Datasets enthalten, z.B. `system`, enthalten.
+Die NASTOOLS-Scripte sollten in einem dedizierten Dataset abgelegt werden. Unter FreeNAS werden mehrere Festplatten zu einem logischen Volume `vol1` zusammengefasst. Das Volume kann dann ein oder mehrere Datasets, z.B. `system`, enthalten.
 
 Ein Script `smartdown.sh` kann dann z.B. folgendermaßen aufgerufen werden:
 
