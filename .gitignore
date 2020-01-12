@@ -1,0 +1,9 @@
+.log
+.secret
+.key
+.local
+[Ll]og/
+[Bb]uild/
+[Dd]eploy/
+[Cc]ode/
+[Rr]un/
