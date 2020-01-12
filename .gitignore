@@ -2,6 +2,7 @@
 .secret
 .key
 .local
+.pdf
 [Ll]og/
 [Bb]uild/
 [Dd]eploy/
