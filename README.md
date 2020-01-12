@@ -8,8 +8,8 @@ Starte FreeNAS WebGUI (Beispiel):
 
 Installiert wird das Script in einem dedizierten Dataset. Unter FreeNAS werden mehrere Festplatten zu einem logischen Volume `vol1` zusammengefasst. Das Volume kann dann ein oder mehrere Datasets enthalten, z.B. `system`.
 
-Das Script liegt dann z.B. unter:
+Das Script kann dann z.B. folgendermaßen aufgerufen werden:
 
-    /mnt/vol1/system/nastools/smart-shutdown/bin/smartdown.sh logger
+    /mnt/vol1/system/nastools/smart-shutdown/bin/smartdown.sh info
   
   
