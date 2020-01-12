@@ -1,6 +1,8 @@
 # SMARTDOWN Utility
 
-Getestet wurde `smartdown.sh` unter FreeNAS 9.x und FreeNAS 10.0.
+SMARTDOWN wird als Cronjob regelmäßig ausgeführt. Es prüft, ob noch genutzte Verbindungen zum NAS bestehen. Falls keine aktiven Verbindungen mehr aktiv sind, wird das NAS heruntergefahren, bis es mit Wake-on-LAN wieder aufgeweckt wird.
+
+Getestet wurde `smartdown.sh` unter FreeNAS 9.x, 10.x und 11.2.
 
 Aufruf:
 ```
